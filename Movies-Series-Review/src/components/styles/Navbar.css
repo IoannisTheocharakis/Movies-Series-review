@@ -1,0 +1,49 @@
+
+.navbar{
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+    width: 100vw;
+    height: 11.5vh;
+    background: linear-gradient(180deg, #000000 0%, #000000 0.01%, rgba(22, 22, 22, 0.7) 99.98%,
+     rgba(15, 15, 15, 0.38) 99.99%, rgba(15, 15, 15, 0.33) 100%, rgba(10, 10, 10, 0.866171) 100%);
+    padding: 0 2vw;
+}
+.nav-left{
+    width: 65vw;
+    display: flex;
+}
+.menu-buttons{
+    display: flex;
+    align-items: center;
+}
+.nav-right{
+    width: 18vw;
+    display: flex;
+}
+
+/*Home Movies Series News Popular*/
+.menu-buttons a{
+    font-size: 1.8em;
+    font-weight: bold;
+    height: min-content;
+    padding: 0 1vw;
+    color:white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.menu-buttons div:hover{
+    cursor: pointer;
+}
+.logo{
+    
+    font-size: 3em;
+    font-weight: bold;
+    height: 100%;
+    color: red;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5vw 0 0;
+}
+

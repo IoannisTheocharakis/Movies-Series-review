@@ -1,0 +1,32 @@
+.mainContainer{
+    background-color:#313131;
+}
+
+.DropDown{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 1vw 2vw;
+    
+}
+
+.title{
+    font-size: 1.8em;
+    font-weight: bold;
+    height: min-content;
+    padding: 1vw 2vw;
+    color:white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-statue{
+    font-size: 1.8em;
+    font-weight: bold;
+    height: min-content;
+    padding: 1vw 2vw 0vw 2vw;
+    color:white;
+    display: flex;
+    align-items: center;
+}
